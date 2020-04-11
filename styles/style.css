@@ -1,0 +1,50 @@
+.flex-container {
+  display: flex;
+  background-color: #fffbe9;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 130px;
+  box-shadow: 5px 10px 10px #d3d3d3;
+}
+
+.flex-container > div {
+  background-color: #fffbe9;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50%;
+}
+.login-form{
+  padding: 20px;
+}
+
+.card{
+  border: none!important;
+}
+
+.p{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.p:hover{
+  cursor: pointer;
+}
+
+.text-small{
+  font-size: 14px;
+}
+
+.login-button{
+  padding: 10px 25px !important;
+}
+  /* @media screen and (min-width: 1000px) {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .cell {
+      width: calc(100% / 3);
+    }
+  } */
