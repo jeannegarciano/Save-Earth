@@ -6,6 +6,11 @@
   margin: 130px;
   box-shadow: 5px 10px 10px #d3d3d3;
 }
+.sign-up,
+.sign-in {
+  position: relative;
+  z-index: 1;
+}
 
 .flex-container > div {
   background-color: #fffbe9;
@@ -14,31 +19,31 @@
   font-size: 30px;
   width: 50%;
 }
-.login-form{
+.login-form {
   padding: 20px;
 }
 
-.card{
-  border: none!important;
+.card {
+  border: none !important;
 }
 
-.p{
+.p {
   text-align: center;
   text-decoration: underline;
 }
 
-.p:hover{
+.p:hover {
   cursor: pointer;
 }
 
-.text-small{
+.text-small {
   font-size: 14px;
 }
 
-.login-button{
+.login-button {
   padding: 10px 25px !important;
 }
-  /* @media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
     .grid {
       display: flex;
       flex-wrap: wrap;
